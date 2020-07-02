@@ -566,7 +566,7 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 1300px) {
-    #aboutus, #benefits, #contact {width: 90%;}
+    #aboutus, #benefits, #contact {width: 80%;}
     .modules-inner-container {
         width: 60%;
     }
