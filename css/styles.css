@@ -5,7 +5,7 @@
 body,br,div,section,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0; padding:0;}
 html,body {margin:0; padding:0;}
 fieldset,img {border:0;}
-input, textarea {border:1px solid #fff; padding:5px; color:#979797;}
+input, textarea {border:1px solid #fff; padding:5px; color:#979797; box-sizing: border-box;}
 address,caption,cite,code,dfn,th,var {font-style:normal; font-weight:normal;}
 ol,ul {list-style:none;}
 q:before,q:after {content:'';}
