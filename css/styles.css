@@ -348,7 +348,7 @@ header {
 .line-3 {width: 25%; transform: rotate(32deg);}
 .line-1 {width: 25%; transform: rotate(10deg);}
 
-.content-6, .content-7, .content-8, .line-6, .line-7, .line-8 {display: none;}
+/*.content-6, .content-7, .content-8, .line-6, .line-7, .line-8 {display: none;}*/
 
 #development {
     position: absolute;
@@ -567,9 +567,7 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 1300px) {
     #aboutus, #benefits, #contact {width: 80%;}
-    .modules-inner-container {
-        width: 60%;
-    }
+    .modules-inner-container {width: 60%;}
     .line-8 {width: 48%;}
     .line-6 {width: 39%; transform: rotate(-63deg);}
     .line-4 {transform: rotate(-42deg);}
@@ -581,12 +579,42 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 1200px) {
-    /*.line-1 {width: 53%; transform: rotate(-80deg);}
-    .line-2 {width: 42%; transform: rotate(-63deg);}
-    .line-3 {width: 34%; transform: rotate(-42deg);}
-    .line-4 {width: 30%; transform: rotate(-13deg);}
-    .line-8 {width: 53%; transform: rotate(80deg);}
-    .line-7 {width: 42%; transform: rotate(63deg);}
-    .line-6 {width: 34%; transform: rotate(42deg);}
-    .line-5 {width: 30%; transform: rotate(13deg);}*/
+    .line-8 {width: 54%; transform: rotate(-80deg);}
+    .line-6 {width: 43%; transform: rotate(-65deg);}
+    .line-4 {width: 35%; transform: rotate(-44deg);}
+    .line-2 {width: 30%; transform: rotate(-16deg);}
+    .line-7 {width: 54%; transform: rotate(80deg);}
+    .line-5 {width: 43%; transform: rotate(65deg);}
+    .line-3 {width: 35%; transform: rotate(44deg);}
+    .line-1 {width: 30%; transform: rotate(16deg);}
 }
+
+@media screen and (max-width: 1050px) {
+    .line-8 {width: 60%;}
+    .line-6 {width: 47%; transform: rotate(-66deg);}
+    .line-4 {width: 37%; transform: rotate(-46deg);}
+    .line-2 {width: 31%; transform: rotate(-17deg);}
+    .line-7 {width: 60%;}
+    .line-5 {width: 47%; transform: rotate(66deg);}
+    .line-3 {width: 37%; transform: rotate(46deg);}
+    .line-1 {width: 31%; transform: rotate(17deg);}
+}
+
+@media screen and (max-width: 1000px) {
+    html {font-size: 16px;}
+    #aboutus, #benefits, #contact {width: 90%;}
+    .modules-inner-container {width: 65%;}
+    .modules-inner-container img {width: 100px; margin-right: 10px;}
+    .menu-right .menu-right-icons img {padding: 0; width: 25px;}
+    .menu-right .menu-right-icons .vertical-spacer {height: 35px; padding-right: 15px; border-right: 2px solid #181818;}
+
+    .line-8 {width: 66%; transform: rotate(-82deg);}
+    .line-6 {width: 51%; transform: rotate(-69deg);}
+    .line-4 {width: 39%; transform: rotate(-51deg);}
+    .line-2 {width: 31%; transform: rotate(-21deg);}
+    .line-7 {width: 66%; transform: rotate(82deg);}
+    .line-5 {width: 51%; transform: rotate(69deg);}
+    .line-3 {width: 39%; transform: rotate(51deg);}
+    .line-1 {width: 31%; transform: rotate(21deg);}
+}
+
