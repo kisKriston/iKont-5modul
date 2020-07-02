@@ -551,7 +551,7 @@ input[type=submit]:hover {
     .line-7 {width: 42%; transform: rotate(79deg);}
     .line-5 {width: 35%; transform: rotate(60deg);}
     .line-3 {width: 30%; transform: rotate(38deg);}
-    .line-2 {width: 28%; transform: rotate(13deg);}
+    .line-1 {width: 28%; transform: rotate(13deg);}
 }
 
 @media screen and (max-width: 1400px) {
