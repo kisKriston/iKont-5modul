@@ -425,9 +425,9 @@ input, textarea {border: none;}
 input[type=text], textarea {
     width: 100%;
     padding: 10px;
-    background-color: #757678;
+    background-color: #bbb;
     border-radius: 5px;
-    color: #fff;
+    color: #000;
     font-size: 1rem;
 }
 
