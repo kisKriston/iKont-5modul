@@ -34,6 +34,10 @@ html {
     color: #181818;
 }
 
+/**********************************
+********** Header styles **********
+**********************************/
+
 header {
     position: relative;
     z-index: 1000000;
@@ -146,7 +150,11 @@ header {
     color: #181818;
 }
 
-/* About us section */
+
+
+/*************************************
+********** About us section **********
+*************************************/
 
 #first-section {
     max-width: 100%;
@@ -191,7 +199,11 @@ header {
     margin: 50px auto 20px;
 }
 
-/* benefits section */
+
+
+/*************************************
+********** Benefits section **********
+*************************************/
 
 #second-section {
     max-width: 100%;
@@ -248,8 +260,9 @@ header {
 
 
 
-
-
+/************************************
+********** Modules section **********
+************************************/
 
 #third-section {
     max-width: 100%;
@@ -262,9 +275,9 @@ header {
 
 #third-section .third-section-main-image {
     position: absolute;
-    max-width: 100%;
+    max-width: 40%;
     align-self: flex-end;
-    top: -175px;
+    top: -8%;
     z-index: -1;
 }
 
@@ -293,10 +306,7 @@ header {
 .modules-inner {
     margin: 0 3%;
     width: 92%;
-    /* 5-6 modul */
-    height: 1000px;
-    /* 7-8 modul
-    height: 1300px;*/
+    height: 1300px;
     display: flex;
     align-items: center;
     position: relative;
@@ -319,13 +329,47 @@ header {
     position: absolute;
 }
 
-.modules-inner-container img {
-    width: 130px;
+.modules-image-container {
+	min-width: 130px;
+	min-height: 130px;
+	max-width: 130px;
+	max-height: 130px;
+	margin-right: 20px;
+	position: static;
     display: flex;
-    margin-right: 20px;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* 8 modul esetén!!!
+.modules-image-container img {
+    width: 60%;
+}
+
+.modules-image-container-empty {
+	min-width: 130px;
+	min-height: 130px;
+	max-width: 130px;
+	max-height: 130px;
+	margin-right: 20px;
+	position: static;
+    display: flex;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modules-image-container-empty img {
+    width: 100%;
+}
+
+.modules-text-container {
+	
+}
 
 .content-8 {top: 3%; left: 18%;}
 .content-6 {top: 15%; left: 27%;}
@@ -335,15 +379,6 @@ header {
 .content-3 {bottom: 27%; left: 33%;}
 .content-5 {bottom: 15%; left: 27%;}
 .content-7 {bottom: 3%; left: 18%;}
-*/
-
-/* 5-6 modul esetén */
-.content-6 {top: 4%; left: 27%;}
-.content-4 {top: 20%; left: 33%;}
-.content-2 {top: 36%; left: 36%;}
-.content-1 {bottom: 36%; left: 36%;}
-.content-3 {bottom: 20%; left: 33%;}
-.content-5 {bottom: 4%; left: 27%;}
 
 .line {
     border-top: 4px solid #217528;
@@ -353,6 +388,7 @@ header {
     top: 50%;
     left: 15%;
 }
+
 /* kb 1920-as szélességnél jó */
 .line-8 {width: 31%; transform: rotate(-78deg);}
 .line-6 {width: 27%; transform: rotate(-55deg);}
@@ -363,7 +399,7 @@ header {
 .line-3 {width: 25%; transform: rotate(32deg);}
 .line-1 {width: 25%; transform: rotate(10deg);}
 
-.content-5, .content-7, .content-8, .line-5, .line-7, .line-8 {display: none;}
+/*.content-6, .content-7, .content-8, .line-6, .line-7, .line-8 {display: none;}*/
 
 #development {
     position: absolute;
@@ -378,7 +414,10 @@ header {
 }
 
 
-/* Contact section */
+
+/************************************
+********** Contact section **********
+************************************/
 
 #fourth-section {
     max-width: 100%;
@@ -439,7 +478,7 @@ input, textarea {border: none;}
 input[type=text], textarea {
     width: 100%;
     padding: 10px;
-    background-color: #bbb;
+    background-color: #d4d4d4;
     border-radius: 5px;
     color: #000;
     font-size: 1rem;
@@ -476,7 +515,9 @@ input[type=submit]:hover {
 
 
 
-
+/***********************************
+********** Footer section **********
+***********************************/
 
 .footer-logo {
     display: flex;
@@ -529,7 +570,9 @@ input[type=submit]:hover {
 
 
 
-
+/*************************************
+********** Media Queries!!! **********
+*************************************/
 
 
 @media screen and (max-width: 1750px) {
@@ -622,7 +665,6 @@ input[type=submit]:hover {
     .modules-inner-container img {width: 100px; margin-right: 10px;}
     .menu-right .menu-right-icons img {padding: 0; width: 25px;}
     .menu-right .menu-right-icons .vertical-spacer {height: 35px; padding-right: 15px; border-right: 2px solid #181818;}
-
     .line-8 {width: 66%; transform: rotate(-82deg);}
     .line-6 {width: 51%; transform: rotate(-69deg);}
     .line-4 {width: 39%; transform: rotate(-51deg);}
